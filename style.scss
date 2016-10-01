@@ -16,22 +16,39 @@
 html {
   font-size: 100%;
 }
+table, th, td {
+	 collapse;border: 1px solid black;	
+	
+}
 
 table {
-	
-   border: 3px solid red;
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border:1px solid black;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	height: 50px;
+}
+
+th {
+	text-align: left;
 }
 
 td {
-	background-colour: #000000;
-	color: white;
+	height: 50px;
+	vertical-align: bottom;
 }
 
-td {
-	background-colour: #000000;
-	color: white;
-}
-
+th, td {
+	padding: 15px;
+	text-align: left;
 body {
 	background: url("https://s-media-cache-ak0.pinimg.com/originals/a9/f4/c0/a9f4c0769f1e95cb50870d9959193bc2.jpg");
   font: 18px/1.4 $helvetica;
