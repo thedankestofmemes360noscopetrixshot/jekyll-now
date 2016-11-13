@@ -62,7 +62,10 @@ body {
 	background-width: 100%;
 	width 100%;
   font: 18px/1.4 $helvetica;
-  color: white;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+	margin-top: 120px;  color: white;
 }
 
 .container {
