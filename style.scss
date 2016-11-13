@@ -13,6 +13,201 @@
 /* BASE RULES */
 /**************/
 
+ul, ol {
+  margin: 0;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    //position: fixed;
+    height: auto;
+    margin: 0 auto;
+    max-width: 740px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.txt-box-intro {
+    width: 100%;
+    background-color: #ffffff;
+    height: 130px;
+    text-align: center;
+}
+
+.txt-box-title {
+    width: 100%;
+    background-color: #ffffff;
+    height: 110px;
+    text-align: center;
+}
+
+// image - text settings
+
+span {
+    font-size: 24px;
+    font-family: "Courier New", Courier, monospace;
+   // font-weight: bold;
+    color: #fef6eb;
+}
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: auto;
+  max-width: 720px;
+  border-radius: 15px;
+  padding-left: 8px;
+  overflow: hidden;
+  padding-top: 35px;
+}
+
+ul.img-list li {
+ // padding-top: 15px;
+  //padding-left: 20px;
+  display: inline-block;
+  height: auto;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 704px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(0, 0,0, 0.5);
+  background-color: rgba(217, 217, 217, 0.5);
+  overflow: hidden;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+  padding-bottom: 0px;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 408.58px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 704px;
+  opacity: 0;
+  border-radius: 15px;
+  padding-bottom: 100px;
+  -webkit-transition: all 0.5s ease; 
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+span.text-content.wk6 {
+	//height: 478px;
+}
+
+span.text-content.wk5 {
+	//height: 369.86px;
+}
+
+span.text-content.wk4 {
+	//height: 450px;
+}
+
+span.text-content.wk3 {
+	//height: 409.34px;
+}
+
+span.text-content.wk2 {
+	//height: 408.58px;
+}
+
+span.text-content.wk1 {
+	//height: 458.45px;
+}
+
+ul.img-list li:hover span.text-content span {
+	padding-bottom: 0px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 100px;
+  -webkit-transition: all 0.5s ease; 
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+span.text-content span.title-post {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+span.text-content span.date-post {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+li a {
+    margin: 0;
+    display: block;
+    color: blue;
+    padding: 8px 16px;
+    padding-top: 0px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+li a.active {
+    background-color: #4caf50;
+    color: black;
+    border-radius: 15px;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: #c25b56;
+}
+
+img.text-on-top {
+  padding-top: 15px;
+  clip: rect(0px, 720px, 330px, 0px);
+}
+
+// end of image - text settings
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+  margin: 0;
+}
+
+ul ul, ol ul {
+  list-style-type: circle;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+//  border-radius: 15px;
+}
+
 html {
   font-size: 100%;
 }
