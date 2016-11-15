@@ -159,7 +159,11 @@ ul.img-list {
 ul.img-list li {
   display: inline-block;
   height: auto;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 720px;
 }
+
 
 span.text-content {
   background: rgba(0,0,0,0.5);
@@ -177,10 +181,7 @@ span.text-content {
   -o-transition: opacity 1s;
   transition: opacity 1s;
 }
-  margin: 0 1em 1em 0;
-  position: relative;
-  width: 150px;
-}
+ 
 
 span.text-content {
   background: rgba(0,0,0,0.5);
