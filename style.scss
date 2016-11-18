@@ -244,12 +244,14 @@ Gmnoprint img {
 //
 
 .wrapper-masthead {
+  width: 100%;
+  Position: fixed;
   margin-bottom: 50px;
 }
 
 .masthead {
   width: 100%;
-  background-attachment: fixed;
+  position: fixed;
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
 
